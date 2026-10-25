@@ -51,6 +51,7 @@ import app.waypoint.notify.Alarms
 import app.waypoint.ui.Language
 import app.waypoint.ui.clockTime
 import app.waypoint.ui.components.Chip
+import app.waypoint.ui.components.CommunityLinks
 import app.waypoint.ui.components.ConfirmDialog
 import app.waypoint.ui.components.SectionTitle
 import app.waypoint.ui.components.TimeDialog
@@ -189,6 +190,8 @@ fun SettingsScreen(settings: Settings, onBack: () -> Unit) {
                     }
                 }
             }
+
+            CommunityLinks()
 
             SectionTitle(stringResource(R.string.about))
             UCard {

@@ -431,4 +431,15 @@
     <plurals name="notif_evening_title"><item quantity="one">%d step is still open</item><item quantity="other">%d steps are still open</item></plurals>
     <string name="guide_title">How this method works</string>
     <string name="guide_steps">Steps</string>
+    <!-- Community: the StillCraft bot on Telegram -->
+    <string name="community_title">Community</string>
+    <string name="community_sub">The app is made together with the people who use it. It all goes through the StillCraft bot on Telegram.</string>
+    <string name="community_bug">Report a bug</string>
+    <string name="community_bug_sub">what broke and how to repeat it</string>
+    <string name="community_idea">Suggest an idea</string>
+    <string name="community_idea_sub">a feature, a method, a constellation</string>
+    <string name="community_follow">Follow updates</string>
+    <string name="community_follow_sub">the bot writes when a version is out</string>
+    <string name="community_chat">StillCraft chat</string>
+    <string name="community_chat_sub">all the apps and people</string>
 </resources>
